@@ -1,0 +1,9 @@
+.dropdown-menu
+{
+    min-width: 12em;  padding: 1em;
+}
+
+.dropdown-item
+{
+    padding: 0;
+}
