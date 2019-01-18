@@ -1,28 +1,34 @@
-.dropdown-menu
-{
+.dropdown-menu {
     min-width: 12em;  padding: 1em;
 }
-
-.dropdown-item
-{
+.dropdown-item {
     padding: 0;
 }
-
-.background
-{
+.background {
     position: fixed;  z-index: -100;     top: 0;  right: 0;  bottom: 0;  left: 0;  overflow: hidden;
 }
-
-.background-video
-{
+.background-video {
     position: absolute;  top: 0;  left: 0;  min-width: 100%;  min-height: 100%;  padding: 0;
 }
-.overlay
-{
+.overlay {
     position: fixed;  top: 0;  right: 0;  bottom: 0;  left: 0;  width: 100%;  height: 100%;  background:    -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);  background:         linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0);
 }
-
-.bg-light
-{
+.bg-light {
     background-color: white !important;
+}
+.heading {
+    font-family: 'Slabo 27px', serif;
+    font-size: 80px;
+    text-indent: 300px;
+    text-decoration: grey;
+    text-decoration-line: underline;
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+.paragraph {
+    font-family: 'Slabo 27px', serif;
+    font-size: 22px;
+    text-indent: 50px;
+    padding: 100px;
+    font-weight: 600;
 }
