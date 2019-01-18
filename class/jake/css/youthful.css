@@ -1,0 +1,20 @@
+body {
+    background: yellow;
+}
+
+.container {
+    margin: 0 auto;
+    font-family: 'Indie Flower', cursive;
+    background-image: radial-gradient(white, yellow, yellow);
+    border-radius: 30px;
+    margin-top: 6%;
+    font-weight: 600;
+}
+.container h1 {
+    font-size: 100px;
+    text-indent: 60px;
+}
+.container p {
+    font-size: 54px;
+    text-indent: 30px;
+}

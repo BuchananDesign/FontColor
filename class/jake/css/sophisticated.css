@@ -1,0 +1,21 @@
+body {
+  background: grey;
+}
+
+.container {
+  font-family: 'Charm', cursive;
+  margin-top: 10%;
+  background: black;
+  color: white;
+  border-radius: 20px;
+}
+.container h1 {
+  font-size: 90px;
+  text-indent: 60px;
+  padding: 10px;
+}
+.container p {
+  font-size: 50px;
+  text-indent: 30px;
+  padding: 10px;
+}
