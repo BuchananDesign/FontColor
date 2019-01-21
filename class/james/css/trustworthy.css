@@ -16,6 +16,12 @@ img {
   max-height: 70vh;
 }
 
+.navbar-brand,
+.navbar-nav a {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.5em;
+}
+
 .fc-container {
   margin-bottom: 2em;
 }
@@ -31,6 +37,9 @@ img {
   padding-bottom: 1em;
   margin-top: 2em;
   margin-bottom: 2em;
+  -webkit-box-shadow: 0px 0px 58px 6px rgba(166, 166, 166, 1);
+  -moz-box-shadow: 0px 0px 58px 6px rgba(166, 166, 166, 1);
+  box-shadow: 0px 0px 58px 6px rgba(166, 166, 166, 1);
 }
 
 h1, p {
@@ -48,4 +57,5 @@ h1 {
 p {
   font-size: 1.1em;
   margin-bottom: 2em;
+  text-align: justify;
 }
